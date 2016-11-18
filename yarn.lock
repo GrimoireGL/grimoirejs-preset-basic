@@ -584,6 +584,14 @@ babel-plugin-transform-strict-mode@^6.18.0:
     babel-runtime "^6.0.0"
     babel-types "^6.18.0"
 
+babel-polyfill@^6.16.0:
+  version "6.16.0"
+  resolved "https://registry.yarnpkg.com/babel-polyfill/-/babel-polyfill-6.16.0.tgz#2d45021df87e26a374b6d4d1a9c65964d17f2422"
+  dependencies:
+    babel-runtime "^6.9.1"
+    core-js "^2.4.0"
+    regenerator-runtime "^0.9.5"
+
 babel-preset-es2015@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-preset-es2015/-/babel-preset-es2015-6.18.0.tgz#b8c70df84ec948c43dcf2bf770e988eb7da88312"
@@ -1204,24 +1212,24 @@ grimoirejs-cauldron@^2.1.0:
     watch "^1.0.1"
     yargs "^6.3.0"
 
-grimoirejs-fundamental@^0.5.3:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.5.3.tgz#dd4a4e4bfdafab88dc788c5a270547bc037b800e"
+grimoirejs-fundamental@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.5.5.tgz#1145f8f78d28da8cf07c9d18bb9ac2e5cbd24818"
   dependencies:
     "@types/json5" "0.0.29"
     grimoirejs "^0.11.7"
     grimoirejs-math "^1.4.1"
     json5 "^0.5.0"
 
-grimoirejs-math@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/grimoirejs-math/-/grimoirejs-math-1.4.1.tgz#1bd26ef96a9d9e56ae39baf0907642e511e08a6a"
+grimoirejs-math@^1.4.1, grimoirejs-math@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/grimoirejs-math/-/grimoirejs-math-1.4.2.tgz#e2514e44698327a3ae810a2add3bb0d80092a6c7"
   dependencies:
     gl-matrix "git+https://github.com/GrimoireGL/gl-matrix.git#master"
 
-grimoirejs@^0.11.7, grimoirejs@^0.11.8:
-  version "0.11.8"
-  resolved "https://registry.yarnpkg.com/grimoirejs/-/grimoirejs-0.11.8.tgz#17a0f753992b098845fa4507a877a4adf78f5bf6"
+grimoirejs@^0.11.7, grimoirejs@^0.11.9:
+  version "0.11.9"
+  resolved "https://registry.yarnpkg.com/grimoirejs/-/grimoirejs-0.11.9.tgz#54378ef5e54b09b92c438a8195573bfe03102dfa"
   dependencies:
     "@types/node" "^6.0.47"
     events "^1.1.1"
@@ -2255,9 +2263,9 @@ tough-cookie@~2.3.0:
   dependencies:
     punycode "^1.4.1"
 
-ts-loader@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-1.2.1.tgz#c9d495b57bb1e134dcd42cf5e0804300e58872c6"
+ts-loader@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-1.2.2.tgz#b4445a621e688e25db8c75afe6b7ccb635014e5c"
   dependencies:
     arrify "^1.0.0"
     colors "^1.0.3"
