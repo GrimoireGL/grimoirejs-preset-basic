@@ -290,9 +290,9 @@ babel-helpers@^6.16.0:
     babel-runtime "^6.0.0"
     babel-template "^6.16.0"
 
-babel-loader@^6.2.7:
-  version "6.2.7"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-6.2.7.tgz#16fdbf64328030dc5a606827d389c8b92a2a8032"
+babel-loader@^6.2.8:
+  version "6.2.8"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-6.2.8.tgz#30d7183aef60afc140b36443676b7acb4c12ac9c"
   dependencies:
     find-cache-dir "^0.1.1"
     loader-utils "^0.2.11"
@@ -1212,24 +1212,24 @@ grimoirejs-cauldron@^2.1.0:
     watch "^1.0.1"
     yargs "^6.3.0"
 
-grimoirejs-fundamental@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.5.5.tgz#1145f8f78d28da8cf07c9d18bb9ac2e5cbd24818"
+grimoirejs-fundamental@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.7.0.tgz#0077a560bf8c5cec7dbc6c3feb23465dcc2005b7"
   dependencies:
     "@types/json5" "0.0.29"
-    grimoirejs "^0.11.7"
-    grimoirejs-math "^1.4.1"
+    grimoirejs "^0.11.11"
+    grimoirejs-math "^1.5.1"
     json5 "^0.5.0"
 
-grimoirejs-math@^1.4.1, grimoirejs-math@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/grimoirejs-math/-/grimoirejs-math-1.4.2.tgz#e2514e44698327a3ae810a2add3bb0d80092a6c7"
+grimoirejs-math@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/grimoirejs-math/-/grimoirejs-math-1.5.1.tgz#178aa4ea5cc70bb36c63f37308bdf0deb2b91ea1"
   dependencies:
     gl-matrix "git+https://github.com/GrimoireGL/gl-matrix.git#master"
 
-grimoirejs@^0.11.7, grimoirejs@^0.11.9:
-  version "0.11.9"
-  resolved "https://registry.yarnpkg.com/grimoirejs/-/grimoirejs-0.11.9.tgz#54378ef5e54b09b92c438a8195573bfe03102dfa"
+grimoirejs@^0.11.11:
+  version "0.11.11"
+  resolved "https://registry.yarnpkg.com/grimoirejs/-/grimoirejs-0.11.11.tgz#9630529ccb0c6abbeebdce7c3feba09105d20fd9"
   dependencies:
     "@types/node" "^6.0.47"
     events "^1.1.1"
