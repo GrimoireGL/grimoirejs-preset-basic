@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "grimoirejs": "^0.11.11",
-    "grimoirejs-fundamental": "^0.7.3",
+    "grimoirejs-fundamental": "^0.7.4",
     "grimoirejs-math": "^1.6.1"
   }
 }
