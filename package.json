@@ -1,6 +1,6 @@
 {
   "name": "grimoirejs-preset-basic",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "",
   "main": "ref/index.js",
   "typings": "ref/index.d.ts",
@@ -10,7 +10,7 @@
     "src"
   ],
   "scripts": {
-    "zip":"zip release/grimoirejs-preset-basic.zip register/grimoire-preset-basic.js register/grimoire-preset-basic.min.js",
+    "zip": "zip release/grimoirejs-preset-basic.zip register/grimoire-preset-basic.js register/grimoire-preset-basic.min.js",
     "prepublish": "npm run build -- --prod && npm run zip",
     "start": "webpack --progress --watch",
     "build": "webpack --progress",
