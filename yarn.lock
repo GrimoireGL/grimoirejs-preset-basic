@@ -1212,24 +1212,32 @@ grimoirejs-cauldron@^2.1.0:
     watch "^1.0.1"
     yargs "^6.3.0"
 
-grimoirejs-fundamental@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.7.4.tgz#c42a0190dcf6204d754ed7b7c133d3549e3a2582"
+grimoirejs-fundamental@^0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.7.7.tgz#b33dca7a88f24d600713b58eb342283c7d7ff80a"
   dependencies:
     "@types/json5" "0.0.29"
     grimoirejs "^0.11.11"
-    grimoirejs-math "^1.6.1"
-    json5 "^0.5.0"
+    grimoirejs-math "^1.7.0"
+    json5 "^0.5.1"
 
-grimoirejs-math@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/grimoirejs-math/-/grimoirejs-math-1.6.1.tgz#4bff63b4686ecdf4b1c1890780f9401df8dca11c"
+grimoirejs-math@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/grimoirejs-math/-/grimoirejs-math-1.7.0.tgz#a93885708d4daaf1b44384be837f95ebc3b4e614"
   dependencies:
     gl-matrix "git+https://github.com/GrimoireGL/gl-matrix.git#master"
 
 grimoirejs@^0.11.11:
   version "0.11.11"
   resolved "https://registry.yarnpkg.com/grimoirejs/-/grimoirejs-0.11.11.tgz#9630529ccb0c6abbeebdce7c3feba09105d20fd9"
+  dependencies:
+    "@types/node" "^6.0.47"
+    events "^1.1.1"
+    grimoirejs-cauldron "^2.1.0"
+
+grimoirejs@^0.11.13:
+  version "0.11.13"
+  resolved "https://registry.yarnpkg.com/grimoirejs/-/grimoirejs-0.11.13.tgz#126585bdb93b81ffc63c39e7b414f623d3bafdf4"
   dependencies:
     "@types/node" "^6.0.47"
     events "^1.1.1"
@@ -1499,9 +1507,9 @@ json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
-json5@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.0.tgz#9b20715b026cbe3778fd769edccd822d8332a5b2"
+json5@^0.5.0, json5@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
 
 jsonfile@^2.1.0:
   version "2.4.0"
@@ -2376,9 +2384,9 @@ webpack-core@~0.6.0:
     source-list-map "~0.1.0"
     source-map "~0.4.1"
 
-webpack-shell-plugin@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/webpack-shell-plugin/-/webpack-shell-plugin-0.4.3.tgz#a633e98c16b3bed5b6963e98059ca783841f3043"
+webpack-shell-plugin@^0.4.6:
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/webpack-shell-plugin/-/webpack-shell-plugin-0.4.6.tgz#9584c0dec9f77c6e173ef7514c85861e7c5d2e5e"
 
 webpack@^1.13.3:
   version "1.13.3"
