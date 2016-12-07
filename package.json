@@ -10,7 +10,8 @@
     "src"
   ],
   "scripts": {
-    "prepublish": "npm run build -- --prod",
+    "zip": "zip release/grimoirejs-preset-basic.zip register/grimoire-preset-basic.js register/grimoire-preset-basic.min.js",
+    "prepublish": "npm run build -- --prod && npm run zip",
     "start": "webpack --progress --watch",
     "build": "webpack --progress",
     "generate-expose": "cauldron generate-exposure --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref",
@@ -31,8 +32,8 @@
     "webpack-shell-plugin": "^0.4.7"
   },
   "dependencies": {
-    "grimoirejs": "^0.11.16",
-    "grimoirejs-fundamental": "^0.7.12",
-    "grimoirejs-math": "^1.7.0"
+    "grimoirejs": "latest",
+    "grimoirejs-fundamental": "latest",
+    "grimoirejs-math": "latest"
   }
 }
