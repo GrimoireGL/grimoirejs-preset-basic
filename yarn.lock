@@ -1219,22 +1219,22 @@ grimoirejs-cauldron@^2.1.0:
     watch "^1.0.1"
     yargs "^6.3.0"
 
-grimoirejs-fundamental@^0.7.12:
-  version "0.7.12"
-  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.7.12.tgz#00887ca7642a8b3c44b6d9a0a3829a4b69847942"
+grimoirejs-fundamental@latest:
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/grimoirejs-fundamental/-/grimoirejs-fundamental-0.7.13.tgz#0bc108df361f2ef6a9c557a9bc7f19e429fae551"
   dependencies:
     "@types/json5" "0.0.29"
     grimoirejs "^0.11.16"
     grimoirejs-math "^1.7.0"
     json5 "^0.5.1"
 
-grimoirejs-math@^1.7.0:
+grimoirejs-math@^1.7.0, grimoirejs-math@latest:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/grimoirejs-math/-/grimoirejs-math-1.7.0.tgz#a93885708d4daaf1b44384be837f95ebc3b4e614"
   dependencies:
     gl-matrix "git+https://github.com/GrimoireGL/gl-matrix.git#master"
 
-grimoirejs@^0.11.16:
+grimoirejs@^0.11.16, grimoirejs@latest:
   version "0.11.16"
   resolved "https://registry.yarnpkg.com/grimoirejs/-/grimoirejs-0.11.16.tgz#fd6828d624d808525d507bf286f21bbbb9eeb1b5"
   dependencies:
