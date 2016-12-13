@@ -1,6 +1,6 @@
 {
   "name": "grimoirejs-preset-basic",
-  "version": "1.3.10",
+  "version": "1.3.11",
   "description": "",
   "main": "ref/index.js",
   "typings": "ref/index.d.ts",
@@ -32,8 +32,8 @@
     "webpack-shell-plugin": "^0.4.9"
   },
   "dependencies": {
-    "grimoirejs": "^0.11.20",
-    "grimoirejs-fundamental": "^0.7.15",
+    "grimoirejs": "^0.11.22",
+    "grimoirejs-fundamental": "^0.7.16",
     "grimoirejs-math": "^1.7.2"
   }
 }
