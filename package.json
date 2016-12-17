@@ -1,6 +1,6 @@
 {
   "name": "grimoirejs-preset-basic",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "",
   "main": "ref/index.js",
   "typings": "ref/index.d.ts",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "grimoirejs": "^0.12.0",
-    "grimoirejs-fundamental": "^0.8.1",
+    "grimoirejs-fundamental": "^0.8.2",
     "grimoirejs-math": "^1.7.2"
   }
 }
