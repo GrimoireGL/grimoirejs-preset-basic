@@ -101,3 +101,5 @@ jspm_packages
 
 ref
 register
+
+yarn.lock
