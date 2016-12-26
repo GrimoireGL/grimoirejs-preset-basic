@@ -1,6 +1,6 @@
 {
   "name": "grimoirejs-preset-basic",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "",
   "main": "ref/index.js",
   "typings": "ref/index.d.ts",
@@ -26,6 +26,7 @@
     "babel-polyfill": "^6.20.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-2": "^6.18.0",
+    "grimoirejs-cauldron": "^2.1.3",
     "ts-loader": "^1.3.3",
     "typescript": "^2.1.4",
     "webpack": "^1.14.0",
