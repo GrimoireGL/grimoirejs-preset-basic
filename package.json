@@ -33,8 +33,8 @@
     "webpack-shell-plugin": "^0.5.0"
   },
   "dependencies": {
-    "grimoirejs": "^0.14.3",
-    "grimoirejs-fundamental": "^0.12.3",
-    "grimoirejs-math": "^1.10.1"
+    "grimoirejs": "latest",
+    "grimoirejs-fundamental": "latest",
+    "grimoirejs-math": "latest"
   }
 }
