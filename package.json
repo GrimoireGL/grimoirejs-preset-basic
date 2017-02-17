@@ -1,6 +1,6 @@
 {
   "name": "grimoirejs-preset-basic",
-  "version": "0.0.0-development",
+  "version": "1.9.0",
   "description": "",
   "main": "ref/index.js",
   "typings": "ref/index.d.ts",
