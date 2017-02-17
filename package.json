@@ -1,6 +1,6 @@
 {
   "name": "grimoirejs-preset-basic",
-  "version": "1.8.7",
+  "version": "0.0.0-development",
   "description": "",
   "main": "ref/index.js",
   "typings": "ref/index.d.ts",
@@ -10,32 +10,40 @@
     "src"
   ],
   "scripts": {
-    "zip": "zip release/grimoirejs-preset-basic.zip register/grimoire-preset-basic.js register/grimoire-preset-basic.min.js",
-    "prepublish": "npm run build -- --env.prod && npm run zip",
+    "prepublish": "npm run build -- --env.prod",
     "prestart": "npm run prebuild",
     "start": "webpack --progress --watch",
     "build": "webpack --progress",
     "prebuild": "cauldron generate-exposure --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref",
-    "postbuild": "cauldron generate-reference --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref"
+    "postbuild": "cauldron generate-reference --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-polyfill": "^6.22.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-2": "^6.22.0",
+    "condition-circle": "^1.5.0",
     "grimoirejs-cauldron": "^2.3.3",
+    "semantic-release": "^6.3.2",
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.6",
-    "webpack": "^2.2.1",
-    "webpack-shell-plugin": "^0.5.0"
+    "webpack": "^2.2.1"
   },
   "dependencies": {
     "grimoirejs": "^0.14.7",
-    "grimoirejs-fundamental": "^0.12.9",
+    "grimoirejs-fundamental": "^0.12.10",
     "grimoirejs-math": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GrimoireGL/grimoirejs-preset-basic.git"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
   }
 }
