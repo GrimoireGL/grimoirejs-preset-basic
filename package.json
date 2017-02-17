@@ -1,6 +1,6 @@
 {
   "name": "grimoirejs-preset-basic",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "",
   "main": "ref/index.js",
   "typings": "ref/index.d.ts",
@@ -12,8 +12,8 @@
   "scripts": {
     "prepublish": "npm run build -- --env.prod",
     "prestart": "npm run prebuild",
-    "start": "webpack --progress --watch",
-    "build": "webpack --progress",
+    "start": "webpack --watch",
+    "build": "webpack",
     "prebuild": "cauldron generate-exposure --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref",
     "postbuild": "cauldron generate-reference --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
