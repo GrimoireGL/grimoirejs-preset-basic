@@ -30,13 +30,13 @@
     "condition-circle": "^1.5.0",
     "grimoirejs-cauldron": "^2.3.3",
     "semantic-release": "^6.3.2",
-    "ts-loader": "^2.0.0",
-    "typescript": "^2.1.6",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
     "webpack": "^2.2.1"
   },
   "dependencies": {
     "grimoirejs": "^0.14.7",
-    "grimoirejs-fundamental": "^0.12.10",
+    "grimoirejs-fundamental": "^0.13.0",
     "grimoirejs-math": "^1.12.1"
   },
   "repository": {
