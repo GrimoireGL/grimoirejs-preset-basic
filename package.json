@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "grimoirejs": "^0.15.0",
-    "grimoirejs-fundamental": "^0.14.2",
+    "grimoirejs-fundamental": "^0.14.6",
     "grimoirejs-math": "^1.12.3"
   },
   "repository": {
