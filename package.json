@@ -34,7 +34,7 @@
     "webpack": "^2.6.1"
   },
   "dependencies": {
-    "grimoirejs": "^0.19.2",
+    "grimoirejs": "^0.19.3",
     "grimoirejs-cauldron": "^3.1.5",
     "grimoirejs-fundamental": "^0.28.1",
     "grimoirejs-math": "^1.14.3"
