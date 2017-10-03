@@ -37,7 +37,7 @@
     "grimoirejs": "^0.20.1",
     "grimoirejs-cauldron": "^3.1.5",
     "grimoirejs-fundamental": "^0.30.0",
-    "grimoirejs-math": "^1.14.8"
+    "grimoirejs-math": "^1.15.1"
   },
   "repository": {
     "type": "git",
