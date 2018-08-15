@@ -72,9 +72,15 @@ workflows:
   workflow:
     jobs:
       - build:
+          filters:
+            branches:
+              only: /.*/
       - test:
           requires:
             - build
+          filters:
+            branches:
+              only: /.*/
       - npm_release:
           requires:
             - build
