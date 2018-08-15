@@ -33,7 +33,7 @@ jobs:
             - src/metaInfo.ts
   test:
     docker:
-      - image: circleci/node:9.6
+      - image: circleci/node:10.8
     environment:
       TZ: /usr/share/zoneinfo/UTC
     steps:
@@ -51,7 +51,7 @@ jobs:
 
   npm_release:
     docker:
-      - image: circleci/node:9.6
+      - image: circleci/node:10.8
     environment:
       TZ: /usr/share/zoneinfo/UTC
     steps:
